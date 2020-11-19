@@ -1,0 +1,31 @@
+{
+  "title": "Yultra",
+  "description": "Unlock your true potential",
+  "base": "/",
+  "themeConfig": {
+    "cover": "/images/cover.jpg",
+    "nav": [{
+      "text": "Artiklar",
+      "link": "/posts"
+    }, {
+      "text": "Bibiliotek",
+      "link": "/books"
+    },{
+      "text": "Om",
+      "link": "/about.html"
+    }],
+    "footer": [{
+      "text": "Senaste Artiklarna",
+      "link": "/posts"
+    }, {
+      "text": "Facebook",
+      "link": "https://facebook.com/"
+    }, {
+      "text": "Twitter",
+      "link": "https://twitter.com"
+    }],
+    "social": {
+      "twitter": "https://twitter.com/"
+    }
+  }
+}
