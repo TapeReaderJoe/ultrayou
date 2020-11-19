@@ -10,7 +10,7 @@
     "copy:casper:styles": "rm -rf blog/.vuepress/theme/styles && mkdir -p blog/.vuepress/theme/styles && cp node_modules/casper/assets/built/*.css blog/.vuepress/theme/styles/",
     "copy:casper": "npm run copy:casper:styles",
     "dev": "vuepress dev blog",
-    "docs:build": "vuepress build docs",
+    "docs:build": "vuepress build blog",
     "build": "npm run copy:casper && rm -rf dist/ && vuepress build blog --dest dist/",
     "bundle:clean": "rm -rf publish && mkdir -p publish",
     "bundle:copy": "cp -R blog/.vuepress/theme/* publish/ && cp package.json publish/",
